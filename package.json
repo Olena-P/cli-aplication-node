@@ -1,0 +1,31 @@
+{
+  "name": "cli-aplication-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.mjs",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olena-P/cli-aplication-node.git"
+  },
+  "keywords": [],
+  "author": "OLENA_PAVLIUK <P.O.W.9.7.21@GMAIL.COM>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olena-P/cli-aplication-node/issues"
+  },
+  "homepage": "https://github.com/Olena-P/cli-aplication-node#readme",
+  "dependencies": {
+    "commander": "^8.2.0",
+    "nanoid": "^3.1.25",
+    "path": "^0.12.7",
+    "yargs": "^17.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
