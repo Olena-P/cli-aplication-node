@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/Olena-P/cli-aplication-node#readme",
   "dependencies": {
-    "commander": "^8.2.0",
     "nanoid": "^3.1.25",
     "path": "^0.12.7",
     "yargs": "^17.1.1"
