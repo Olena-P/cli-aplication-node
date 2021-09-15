@@ -2,24 +2,24 @@
 
 # Получаем и выводим весь список контактов в виде таблицы (console.table)
 
-node index.mjs --action list
+node app.js --action list
 
-https://ibb.co/CH9bFnc
+https://ibb.co/zQHbFf4
 
 # Получаем контакт по id
 
-node index.mjs --action get --id 5
+node app.js --action get --id 5
 
-https://ibb.co/RyyJ1vb
+https://ibb.co/t4fWXDZ
 
 # Добавялем контакт
 
-node index.mjs --action add --name Mango --email mango@gmail.com --phone 322-22-22
+node app.js --action add --name Mango --email mango@gmail.com --phone 322-22-22
 
-https://ibb.co/dJDKGTV
+https://ibb.co/Nj4J3WR
 
 # Удаляем контакт
 
-node index.mjs --action remove --id=3
+node app.js --action remove --id=3
 
-https://ibb.co/1qZnNvP
+https://ibb.co/B3MrZGj

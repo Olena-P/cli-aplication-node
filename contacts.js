@@ -1,6 +1,6 @@
-import fs from "fs/promises";
-import path from "path";
-import { nanoid } from "nanoid";
+const fs = require("fs/promises");
+const path = require("path");
+const { nanoid } = require("nanoid");
 
 const contactsPath = path.resolve("./db/contacts.json");
 
@@ -85,4 +85,4 @@ async function addContact(name, email, phone) {
   }
 }
 
-export default { listContacts, getContactById, removeContact, addContact };
+module.exports = { listContacts, getContactById, removeContact, addContact };
