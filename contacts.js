@@ -32,7 +32,6 @@ async function getContactById(contactId) {
     );
 
     if (!contact) throw new Error("Contact not found");
-
     console.table(contact);
   } catch (error) {
     console.log(error.message);
